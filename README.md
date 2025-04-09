@@ -23,7 +23,7 @@ Este é um APP Financeiro educativo desenvolvido com alunos do curso técnico em
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repo.git
+   git clone https://github.com/rafaelflorindo/MeuFinanceiro.git
 2. Acesse a pasta:
     ```bash
     cd MeuFinaceiro
@@ -33,7 +33,7 @@ Este é um APP Financeiro educativo desenvolvido com alunos do curso técnico em
 4. Inicie o projeto:
     ```bash
     npm start
- A aplicação estará disponível em http://localhost:3000
+ A aplicação estará disponível em http://localhost:<porta separada pelo ReactNative, ou emulada pelo Android Stude>
 
  ---
 
