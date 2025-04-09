@@ -1,8 +1,7 @@
 
 # 🌐 APP Educação Financeira - Rafael Florindo
 
-[![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)](https://reactjs.org/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![React Native](https://img.shields.io/badge/React_Native-0.79.0-61DAFB?logo=react)](https://reactnative.dev/)
 [![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)]()
 [![Deploy](https://img.shields.io/badge/deploy-localhost-lightgrey)]()
 [![CSS](https://img.shields.io/badge/styling-CSS3-blue)]()
@@ -49,5 +48,3 @@ Desenvolvido por Rafael Florindo — 2025
 
 ---
 
-### 📜 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
