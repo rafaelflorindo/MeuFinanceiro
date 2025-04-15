@@ -45,20 +45,20 @@ export default function App() {
         
         <View style={styles.vidaFinanceira}>
           <View style={styles.resultadoCard}>
-            <Text>Salário Líquido</Text>
-            {rendimento ? <Text style={styles.rendimento}>{parseFloat(rendimento)}</Text> : null}
+            <Text style={styles.textResultado}>Salário Líquido</Text>
+            {rendimento ? <Text style={styles.rendimento}>R$ {parseFloat(rendimento)}</Text> : null}
           </View>
           <View style={styles.resultadoCard}>
-            <Text>Despesas Fixas</Text>
-            {despesasFixas ? <Text>{parseFloat(despesasFixas)}</Text> : null}
+            <Text style={styles.textResultado}>Despesas Fixas</Text>
+            {despesasFixas ? <Text>R$ {parseFloat(despesasFixas)}</Text> : null}
           </View>
           <View style={styles.resultadoCard}>
-            <Text>Desejos</Text>
-            {desejos ? <Text>{parseFloat(desejos)}</Text> : null}
+            <Text style={styles.textResultado}>Desejos</Text>
+            {desejos ? <Text>R$ {parseFloat(desejos)}</Text> : null}
           </View>
           <View style={styles.resultadoCard}>
-            <Text>Investimentos</Text>
-            {investimentos ? <Text>{parseFloat(investimentos)}</Text> : null}
+            <Text style={styles.textResultado}>Investimentos</Text>
+            {investimentos ? <Text>R$ {parseFloat(investimentos)}</Text> : null}
           </View>
           <TouchableOpacity style={styles.bottom} onPress={limpar}>
         <Text style={styles.textBottom}>Limpar</Text>
@@ -126,9 +126,15 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   resultadoCard: {
-    backgroundColor: '',
+    backgroundColor: '#e2e2e2',
+    borderWidth: 1,
+    borderColor:1,
+
     borderRadius: 10,
     padding: 10,
+  },
+  textResultado:{
+    fontWeight:'700'
   },
   versao:{
     position: 'absolute',
@@ -140,4 +146,3 @@ const styles = StyleSheet.create({
     width: '100%',
   }
 });
-
